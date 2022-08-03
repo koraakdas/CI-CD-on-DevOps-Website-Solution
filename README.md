@@ -8,7 +8,7 @@ Jenkins is an open-source Continuous Integration server written in Java for orch
 
 In the last [project I implemented](https://github.com/Micah-Shallom/Load-Balancing-with-Apache/blob/main/README.md), I configured an apache load balancer to my web application architecture to route user traffic across multiple web servers.
 
-Here I introduce in Jenkins to automate code delivery to the NFS server
+Here I introduce Jenkins to automate code delivery to the NFS server
 
 
 ## Jenkins Web Architecture For CI Builds
@@ -89,7 +89,7 @@ In this case the code on Github was built into an artifact on our Jenkins server
 ![new_build](./Img/16.new_build.jpg)
 ![persisted_archive](./Img/17.persisted_archive.jpg)
 
-Our created artifact can be found on our local terminal too 
+Our created artifact can be found on our local terminal too at this path 
 `/var/lib/jenkins/jobs/tooling_github/builds/<build_number>/archive/`
 ![artifact_terminal](./Img/18.artifact_terminal.jpg)
 
